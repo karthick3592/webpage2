@@ -14,5 +14,5 @@
         enabled: yes
     - name: copy index.html
       ansible.builtin.copy:
-        src: /home/karthick/workspace/webpage2/index.html
+        src: /home/karthick/workspace/web2/index.html
         dest: /var/www/html/index.html
