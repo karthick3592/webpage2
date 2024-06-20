@@ -16,3 +16,7 @@
       ansible.builtin.copy:
         src: /home/karthick/workspace/web2/index.html
         dest: /var/www/html/index.html
+    - name: copy index.html
+      ansible.builtin.copy:
+        src: /home/karthick/workspace/webpage/assets
+        dest: /root/assets
