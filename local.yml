@@ -18,5 +18,5 @@
         dest: /var/www/html/index.html
     - name: copy index.html
       ansible.builtin.copy:
-        src: /home/karthick/workspace/webpage/assets
+        src: /home/karthick/workspace/web2/assets
         dest: /var/www/html
